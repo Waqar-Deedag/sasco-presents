@@ -1,53 +1,52 @@
+/* Dark theme for SASCO Presents */
 body {
-  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  line-height: 1.6;
 }
 
 header {
-  background: #0d6efd;
-  color: #fff;
-  padding: 1rem 2rem;
+  background: #1a1a1a;
+  padding: 20px;
   text-align: center;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+h1 {
+  color: #e50914; /* Netflix-red accent for branding */
+  font-size: 2.5em;
+  margin: 0;
 }
 
 nav a {
-  color: #fff;
-  margin: 0 1rem;
+  color: #ffffff;
   text-decoration: none;
+  margin: 0 15px;
   font-weight: bold;
 }
 
-main {
-  padding: 2rem;
+nav a:hover {
+  color: #e50914; /* Hover effect */
 }
 
-h2 {
-  color: #0d6efd;
-}
-
-footer {
-  background: #222;
-  color: #ccc;
+.hero {
+  padding: 80px 20px;
   text-align: center;
-  padding: 1rem;
-  position: relative;
-  bottom: 0;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+              url('assets/images/hero-bg.jpg'); /* Add a background image later */
+}
+
+.hero h2 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+/* YouTube embed styling */
+iframe {
   width: 100%;
-  margin-top: 2rem;
-}
-
-.blog article {
-  margin-bottom: 2rem;
-}
-
-.contact ul {
-  list-style: none;
-  padding: 0;
-}
-
-.contact li {
-  margin-bottom: 0.5rem;
+  height: 500px;
+  border: none;
+  margin: 20px 0;
 }
